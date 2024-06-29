@@ -1,0 +1,50 @@
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+
+header{
+    width: 800px;
+    height: 52px;
+}
+
+nav{
+    width: 800px;
+    height: 48px;  
+    background-color: lightgoldenrodyellow;
+    letter-spacing: -1em;
+}
+
+main{
+    width: 800px;
+    height: 500px;
+    background-color: lightblue;
+}
+
+footer{
+    width: 800px;
+    height: 40px; 
+    background-color: lightgreen; 
+}
+
+.btn{
+    display: inline-block;
+    width: 200px;
+    height: 48px;
+}
+
+.be {
+    display: inline;
+}
+
+.af {
+    display: none;
+}
+
+.cng:hover .be{
+    display: none;
+  }
+
+.cng:hover .af{
+    display: inline;
+}
